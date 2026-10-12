@@ -21,7 +21,7 @@ A simple to-do list app. Add tasks, mark them as done and delete them. It shows 
 
 ## 🛠️ Run it on your computer
 ```bash
-git clone https://github.com/abdulsattarnangri7-desktoop/todo-app.git
+git clone https://github.com/abdulsattar1-dev/todo-app.git
 cd todo-app
 npm install
 npm run dev
@@ -33,4 +33,4 @@ React 19 · Vite · CSS
 
 ## 👤 Author
 **Abdul Sattar** — WordPress & React Developer
-[GitHub](https://github.com/abdulsattarnangri7-desktoop) · [Portfolio](http://abdulsattarportfolio.free.nf)
+[GitHub](https://github.com/abdulsattar1-dev) · [Portfolio](http://abdulsattarportfolio.free.nf)
