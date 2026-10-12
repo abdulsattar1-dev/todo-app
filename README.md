@@ -1,16 +1,36 @@
-# React + Vite
+# 📝 To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple to-do list app. Add tasks, mark them as done and delete them. It shows how many tasks are finished.
 
-Currently, two official plugins are available:
+**🔗 Live demo:** https://todo-app-snowy-psi.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- Add a task with the **Add Task** button or the **Enter** key
+- Tick the checkbox to mark a task as done (the text gets a line through it)
+- Delete any task
+- Counter shows done tasks, for example **Done: 2 / 5**
+- Friendly message when the list is empty
+- Empty tasks are not added
 
-## React Compiler
+## 🧠 What I learned
+- `useState` for the input text and the list of tasks
+- Adding to a list with the spread operator `[...tasks, newTask]`
+- Removing items with `filter()`
+- Showing a list with `map()` and `key`
+- Conditional styles (line-through when done)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Run it on your computer
+```bash
+git clone https://github.com/abdulsattarnangri7-desktoop/todo-app.git
+cd todo-app
+npm install
+npm run dev
+```
+Then open http://localhost:5173
 
-## Expanding the Oxlint configuration
+## 📦 Built with
+React 19 · Vite · CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 👤 Author
+**Abdul Sattar** — WordPress & React Developer
+[GitHub](https://github.com/abdulsattarnangri7-desktoop) · [Portfolio](http://abdulsattarportfolio.free.nf)
